@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+.pokes {
+  transition:all 0.2s linear;
+}
+
+.pokes:hover {
+  transform:scale(1.1);
+  cursor:pointer;
+}
